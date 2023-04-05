@@ -7,19 +7,20 @@
 body {
   margin: 0;
   font-family: system-ui;
-  display: flex;
-  justify-content: center;
 }
 
 header {
   background-color: #197b4d;
   color: white;
   padding: 2rem;
-  min-width: 40rem;
+}
+
+main {
+  display: grid;
 }
 
 h2 {
-  margin-top: 5rem;
+  margin: 3rem 0 0 1rem;
 }
 
 h3:not(:first-of-type) {
@@ -29,7 +30,7 @@ h3:not(:first-of-type) {
 section {
   border: 1px solid #ccc;
   padding: 2rem;
-  margin: 0 0 5rem 0;
+  margin: 0 1rem 5rem 1rem;
 }
 
 .button {

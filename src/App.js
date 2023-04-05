@@ -19,7 +19,7 @@ export default function App() {
       <AnimalCategory title="Waterproof">
         <Animal
           emoji="🐢"
-          name="Archibald"
+          name="Archie"
           description={
             <>
               <p>Super relaxed turtle</p>

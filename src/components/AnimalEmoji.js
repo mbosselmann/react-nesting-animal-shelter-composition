@@ -1,3 +1,7 @@
 export default function AnimalEmoji({ children }) {
-  return <span className="animal-emoji">{children}</span>;
+  return (
+    <span className="animal-emoji" aria-hidden="true">
+      {children}
+    </span>
+  );
 }
